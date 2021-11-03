@@ -1,0 +1,101 @@
+li {
+  list-style: none;
+}
+
+.header {
+  /* background-color: rgb(51, 122, 255); */
+  height: 80px;
+  width: 100%;
+}
+.serie-logo img {
+  float: left;
+  width: 70px;
+  height: 60px;
+  line-height: 100px;
+  /* margin-top: 30px; */
+  margin-left: 90px;
+  margin-right: 50%;
+}
+.header li {
+  list-style: none;
+  float: left;
+  margin: 20px 30px 200px 30px;
+}
+
+
+
+
+.entrance {
+  text-align: center;
+  height: 700px;
+}
+.entrance-pic {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -100px;
+  width: 400px;
+}
+.entrance button {
+ position: relative;
+ top: -50px;
+ font-size: 30px;
+}
+
+
+
+.contents {
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  text-align: center;
+}
+.contents ul {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.title-contents {
+  float: left;
+  width: 20%;
+  margin: 50px 0px;
+}
+.title-contents img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+.for-game {
+  /* display: none; */
+  padding-top: 500px;
+}
+
+
+
+.footer {
+  background-color: rgb(78, 75, 255);
+  color: aliceblue;
+  height: 100px;
+  width: 100%;
+  margin-top: 30px; 
+}
+.footer img {
+  margin-top: 20px;
+}
+.text {
+  float: right;
+  font-size: small;
+  padding-top: 75px;
+  padding-right: 40px;
+}
+
+
+
+
+.coming-soon {
+
+  margin: auto;
+  text-align: center;
+  margin-top: 20%;
+}
