@@ -1,6 +1,10 @@
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .header {
   /* background-color: rgb(51, 122, 255); */
@@ -12,7 +16,6 @@ li {
   width: 70px;
   height: 60px;
   line-height: 100px;
-  /* margin-top: 30px; */
   margin-left: 90px;
   margin-right: 50%;
 }
@@ -37,9 +40,18 @@ li {
   width: 400px;
 }
 .entrance button {
- position: relative;
- top: -50px;
- font-size: 30px;
+  position: relative;
+  top: -50px;
+}
+.btn-offi {
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  width: 250px;
+  height: 70px;
+  box-shadow: 8px 8px 0 0 black;
 }
 
 
@@ -60,6 +72,8 @@ li {
   float: left;
   width: 20%;
   margin: 50px 0px;
+  font-weight: bold;
+  font-family: Courier New;
 }
 .title-contents img {
   height: 300px;
@@ -67,14 +81,28 @@ li {
   object-fit: cover;
 }
 .for-game {
-  /* display: none; */
   padding-top: 500px;
+}
+.btn-dazn {
+  background-color:white;
+   /* 13px 13px 26px white,
+   -13px -13px 26px  #cac5c5 ; */
+  font-size: 30px;
+  font-weight: bold;
+  width: 180px;
+  height: 80px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 
+    13px 13px 26px #cac5c5,
+    -13px -13px 26px  white;
+  
 }
 
 
 
 .footer {
-  background-color: rgb(78, 75, 255);
+  background-color: rgb(51, 122, 255);
   color: aliceblue;
   height: 100px;
   width: 100%;
@@ -94,7 +122,6 @@ li {
 
 
 .coming-soon {
-
   margin: auto;
   text-align: center;
   margin-top: 20%;
